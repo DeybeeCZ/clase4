@@ -1,0 +1,6 @@
+<div class="cuadrado" [ngStyle]="myClass()">
+    <input type="color" [(ngModel)]="selectedColor" />
+</div>
+<div class="cuadrado" [ngClass]="{'color-verde': claseColor===true}">
+    <button (click)="greenClass()">Poner Verde</button>
+</div>
